@@ -17,7 +17,7 @@ doubleAndReturn = (arr, ...argument) => {
 removeItems = (items) => {
     let random = Math.floor(Math.random() * items.length);
     return [...items.slice(0, random), ...items.slice(random + 1)];
-    //getting where to slice was the HARDEST part of all of this lol
+    //getting where to slice was the HARDEST part of all of this lolgit
 }
 
 extend = (array1, array2) => {
